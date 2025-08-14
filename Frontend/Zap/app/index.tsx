@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello, World!</Text>
+      <Text style={styles.text}>Hello!</Text>
     </View>
   );
 }
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     alignItems:'center',
   },
   text: {
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: "bold",
   },
 });
